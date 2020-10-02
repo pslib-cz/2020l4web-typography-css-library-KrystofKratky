@@ -22,7 +22,7 @@ This library changes styles of these tags:
 * ul, ol, li
 * figure, figcaption, img
 * nav, header footer
-How to apply style to lists:
+### How to apply style to lists:
 ```html
 <ul class="unordered-list">
             <li>List item</li>
