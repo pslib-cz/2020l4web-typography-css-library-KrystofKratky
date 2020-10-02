@@ -20,6 +20,8 @@ This library changes styles of these tags:
 * h1, h2, h3, h4, h5
 * p, s, strong, b, i, q
 * ul, ol, li
+* figure, figcaption, img
+* nav, header footer
 How to apply style to lists:
 ```html
 <ul class="unordered-list">
