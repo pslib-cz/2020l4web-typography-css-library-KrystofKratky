@@ -16,6 +16,8 @@ Link to **[demo](http://www.github.io)** site for preview.
 </head>
 ```
 ## Usage
+Download style.css to your folder.
+
 This library changes styles of these tags:
 * h1, h2, h3, h4, h5
 * p, s, strong, b, i, q
@@ -44,7 +46,7 @@ This library changes styles of these tags:
             <li>List item</li>
         </ol>
 ```
-How to write an article:
+### How to write an article:
 ```html
  <article>
             <h2>Second-level heading</h2>
