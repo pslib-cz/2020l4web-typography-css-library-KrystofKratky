@@ -1,5 +1,5 @@
 # Typography CSS library
-**Author:** *First Lastname*
+**Author:** *Kryštof Krátký*
 ## Demo site
 Link to **[demo](http://www.github.io)** site for preview.
 # Blog typography
