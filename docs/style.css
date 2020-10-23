@@ -1,0 +1,206 @@
+body {
+    width: 60%;
+    margin: auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-variant: small-caps;
+}
+
+h1 {
+    font-size: 48px;
+    margin: .6em 0;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h2, h3, h4, h5 {
+    margin: .4em 0;
+}
+
+header {
+    background-color: #e4e3e3;
+    padding: .4em 2em;
+    margin: 1em 0;
+    border-radius: .2em;
+}
+
+nav {
+    font-size: 18px;
+}
+
+.navigation-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.navigation-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation-list li {
+    margin: .6em 0;
+}
+
+h1::first-letter,
+h2::first-letter,
+h3::first-letter,
+h4::first-letter,
+h5::first-letter {
+    color: red;
+}
+
+p {
+    font-size: 18px;
+}
+
+.author {
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.author span {
+    text-decoration: underline;
+}
+
+.author span:hover {
+    text-decoration: none;
+    color: gray;
+    text-decoration: none;
+}
+
+q {
+    text-align: center;
+    font-style: italic;
+    color: gray;
+    margin: 3em 0;
+    letter-spacing: 1px;
+}
+
+q::before {
+    content: '“';
+    padding-right: 4px;
+    font-size: 24px;
+}
+
+q::after {
+    content: '”';
+    padding-left: 2px;
+    font-size: 24px;
+}
+
+b {
+    color: red;
+}
+
+i {
+    color: gray;
+}
+
+strong {
+    background-color: red;
+    border-radius: .2em;
+    padding: .2em;
+}
+
+s {
+    background-color: yellow;
+}
+
+.unordered-list {
+    margin: .2em 0;
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+.unordered-list li::before {
+    content: "\25C9";
+    color: red;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 .6em;
+}
+
+.ordered-list {
+    list-style-type: none;
+    padding-left: 1em;
+    margin: .2em 0;
+}
+
+.ordered-list li {
+    counter-increment: li;
+}
+
+.ordered-list li::before {
+    content: counter(li);
+    color: red;
+    display: inline-block;
+    margin: 0 .6em;
+}
+
+img {
+    width: 100%;
+    border-radius: .4em;
+}
+
+figure {
+    margin: .8em;
+    width: 50%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    background-color: #e4e3e3;
+    border-radius: .2em;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding: 1em 0;
+}
+
+@media only screen and (max-width: 960px) {
+    body {
+        width: 90%;
+    }
+}
+
+@media print {
+    body {
+        width: 100%;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    footer {
+        display: none;
+    }
+}
