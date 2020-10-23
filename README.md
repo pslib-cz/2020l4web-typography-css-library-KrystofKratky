@@ -1,7 +1,7 @@
 # Typography CSS library
 **Author:** *Kryštof Krátký*
 ## Demo site
-Link to **[demo](https://krystofkratky.github.io/typography/#)** site for preview.
+Link to **[demo](https://pslib-cz.github.io/2020l4web-typography-css-library-KrystofKratky/)** site for preview.
 # Blog typography
 ## Implementation
 ```html
